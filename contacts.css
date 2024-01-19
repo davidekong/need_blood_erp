@@ -1,0 +1,116 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+.wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.sidebar-header {
+    
+    padding: 20px;
+}
+
+
+
+.sidebar-header h2 {
+    
+    color: rgba(0, 113, 164, 0.53);
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5px;
+    margin-bottom: 30px;
+    
+}
+
+.user-info {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.user-info p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.email {
+    font-size: 10px;
+    color: #555;
+    margin-top: 1px;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+ul {
+    color: black;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    color: black;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul li:hover {
+    background-color: #b4b3b35b;
+}
+
+ul li svg {
+    margin: 5px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #F5F6F8;
+}
+
+.toggle-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toggle-btn:hover {
+    background-color: #45a049;
+}

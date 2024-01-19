@@ -1,0 +1,149 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    height: 98vh;
+}
+
+.input-svg-box {
+    background-color: #ffffff;
+    width: 10%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.h1 {
+    color: rgba(0, 113, 164, 0.53);
+    font-family: "Poppins", sans-serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5px;
+}
+
+.h2 {
+    color: rgba(0, 113, 164, 0.53);
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5px;
+    margin-bottom: 30px;
+}
+
+.left {
+    margin: 0;
+    padding: 50px;
+    width: 45%;
+    height: 100%;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.logo svg {
+    margin: 15px;
+}
+
+.property-box {
+    margin: 0;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.property-box img {
+    width: 100%;
+    height: auto;
+}
+
+.login-container {
+    width: 80%;
+}
+
+.login-container h2 {
+    color: #333;
+}
+
+.input-group {
+    
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.input-group input {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    padding: 8px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-color: transparent;
+    box-sizing: border-box;
+}
+
+.checkbox-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.square-checkbox {
+    width: 11px; /* Set the width and height to create a square */
+    height: 11px;
+    margin-right: 10px; /* Adjust spacing as needed */
+    appearance: none; /* Remove default checkbox styles */
+    border: 2px solid #333; /* Border color */
+    border-radius: 4px; /* Optional: Add rounded corners */
+    cursor: pointer;
+}
+
+.square-checkbox:checked {
+    background-color: #4CAF50; /* Change background color when checked */
+    border-color: #4CAF50; /* Change border color when checked */
+}
+
+label {
+    font-size: 11px;
+    color: #333;
+}
+
+
+.login-btn {
+    font-family: "Poppins", sans-serif;
+    background-color: #5A4E4E;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+

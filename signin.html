@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="auth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="left">
+        <div class="login-container">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="57" viewBox="0 0 41 57" fill="none">
+                    <path d="M16.7545 4.50865C11.6554 11.5936 7.84458 17.6588 4.62414 23.7776C-0.152858 32.8486 -0.95797 36.9278 0.974297 43.0466C2.96024 49.4339 8.81071 55.016 15.0369 56.5188C19.0088 57.485 24.9129 56.9482 28.4554 55.338C36.6139 51.6345 41.6056 41.8658 39.6733 33.6537C38.5998 29.0914 33.5545 19.4837 27.6503 10.6812C24.8593 6.54826 22.0145 2.41536 21.2631 1.55657L20.0286 2.28882e-05L16.7545 4.50865ZM25.0203 8.7489C29.0458 14.492 34.95 24.207 35.9161 26.7297C36.1845 27.3201 36.7212 28.662 37.2043 29.7355L38.0094 31.6677L36.0235 30.7016C32.2126 28.7157 28.4554 29.4671 22.9807 33.3316L20.0286 35.4249L17.0765 33.3316C11.7628 29.4671 7.95193 28.7157 4.14107 30.7553L2.15513 31.8288L2.58452 30.5943C5.48292 22.9725 19.2772 1.01983 20.4043 2.25434C20.5653 2.41536 22.6586 5.36744 25.0203 8.7489ZM14.1781 33.3316C14.0171 33.4927 13.5877 33.3316 13.212 32.9559C12.7289 32.4192 12.7826 32.3655 13.534 32.6875C14.0708 32.8486 14.3391 33.1706 14.1781 33.3316ZM34.5743 43.2077C34.0375 46.4818 31.9442 49.8633 29.3679 51.5808C27.4356 52.869 26.6305 53.03 22.9807 53.03C20.6727 53.03 18.6331 52.869 18.4184 52.6006C17.9353 52.1712 17.828 52.2786 27.3283 45.6767C31.0318 43.1003 34.2522 41.007 34.4669 40.9534C34.7353 40.9534 34.789 41.9732 34.5743 43.2077Z" fill="#0071A4" fill-opacity="0.53"/>
+                    <path d="M15.9493 10.0907C12.7825 14.5456 7.46875 23.2945 7.46875 23.8849C7.46875 25.1731 8.70325 23.7239 11.387 19.2153C13.1045 16.4242 15.6809 12.3987 17.1301 10.359C19.9748 6.38716 20.1358 6.06511 19.2771 6.06511C19.0087 6.06511 17.5058 7.89003 15.9493 10.0907Z" fill="#0071A4" fill-opacity="0.53"/>
+                </svg>
+                <p class="h2">NeedBlood</p>
+            </div>
+            <p class="h1">Sign Into</p>
+            <p class="h2">Your Account</p>
+            <form action="#" method="post">
+                <div class="input-group">
+                    <div class="input-svg-box">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M13.3335 4.66675H2.66683C1.93045 4.66675 1.3335 5.2637 1.3335 6.00008V12.6667C1.3335 13.4031 1.93045 14.0001 2.66683 14.0001H13.3335C14.0699 14.0001 14.6668 13.4031 14.6668 12.6667V6.00008C14.6668 5.2637 14.0699 4.66675 13.3335 4.66675Z" stroke="#203060" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10.6668 14V3.33333C10.6668 2.97971 10.5264 2.64057 10.2763 2.39052C10.0263 2.14048 9.68712 2 9.3335 2H6.66683C6.31321 2 5.97407 2.14048 5.72402 2.39052C5.47397 2.64057 5.3335 2.97971 5.3335 3.33333V14" stroke="#203060" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></center>
+                    </div>
+                    <input type="text" id="company-id" name="company-id" required placeholder="Company ID">
+                </div>
+                <div class="input-group">
+                    <div class="input-svg-box">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M12.6667 7.33325H3.33333C2.59695 7.33325 2 7.93021 2 8.66659V13.3333C2 14.0696 2.59695 14.6666 3.33333 14.6666H12.6667C13.403 14.6666 14 14.0696 14 13.3333V8.66659C14 7.93021 13.403 7.33325 12.6667 7.33325Z" stroke="#203060" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4.6665 7.33325V4.66659C4.6665 3.78253 5.01769 2.93468 5.64281 2.30956C6.26794 1.68444 7.11578 1.33325 7.99984 1.33325C8.88389 1.33325 9.73174 1.68444 10.3569 2.30956C10.982 2.93468 11.3332 3.78253 11.3332 4.66659V7.33325" stroke="#203060" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></center>
+                    </div>
+                    <input type="password" id="password" name="password" required placeholder="Password">
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="squareCheckbox" class="square-checkbox">
+                    <label for="squareCheckbox">Remember me</label>
+                </div>
+                <button type="submit" class="login-btn">Sign In</button>
+            </form>
+        </div>
+        
+    </div>
+    <div class="property-box">
+        <img src="property2.png" alt="">
+    </div>
+    
+
+</body>
+</html>
